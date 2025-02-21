@@ -1,4 +1,4 @@
-package main
+package receipts
 
 type Receipt struct {
 	Retailer     string  `json:"retailer"`
@@ -14,7 +14,7 @@ type Item struct {
 }
 
 type ReceiptResponse struct {
-	ID int `json:"id"`
+	ID string `json:"id"`
 }
 
 type PointsResponse struct {
